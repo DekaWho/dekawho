@@ -248,7 +248,7 @@ function insertForm() {
                       font-size: 1rem !important;
                       height: auto;
                       line-height: 21px !important;
-                      width: 95% !important;
+                      width: 60% !important;
                       margin: 0 auto !important;
                       display: block !important;
                       padding: .9rem 1rem !important;
@@ -679,7 +679,7 @@ function insertForm() {
                         border-radius: 10px;
                         box-shadow: 4px 4px 0 #252422;
                         color: #252422;
-                        padding: .6rem 5rem;
+                        padding: .4rem 2rem;
                         max-width: 35vw;
                         font-family: "Courier New", Courier, monospace;
                         font-weight: 500;
@@ -701,7 +701,6 @@ function insertForm() {
                       #mlb2-27786331.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
                         font-size: 1rem !important;
                         font-weight: 500 !important;
-                        padding: .6rem 3.5rem !important;
                       }
 
                       #mlb2-27786331.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsContent.privacy-policy p {
@@ -710,6 +709,10 @@ function insertForm() {
 
                       #mlb2-27786331.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input{
                         font-size: .9rem !important;
+                      }
+
+                      #mlb2-27786331.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input{
+                        width: 85% !important;
                       }
                       
                     }
@@ -1123,12 +1126,12 @@ async function startTypewriter() {
   const p7 = document.querySelector(".p7");
 
   await typeWriter(t1, "[classified]", 150);
-  await typeWriter(p1, "Lo que estás leyendo aquí es [top_secret], algo más grande que todos nosotros... Pero esto no es una conspiración para hablarte de élites controlando el mundo desde las sombras. No.", 70);
-  await typeWriter(p2, "La realidad no está oculta, está delante de nuestros propios ojos. ¿Te suena la frase 'una mentira repetida mil veces se convierte en verdad'?. ¿Pueden personas concretas manipular a las masas?, ¿y si tus ideas no fueran tu propia opinión?", 7);
+  await typeWriter(p1, "Lo que estás leyendo aquí es [top_secret], algo más grande que todos nosotros... Pero esto NO es una conspiración para hablarte de élites controlando el mundo desde las sombras. No.", 70);
+  await typeWriter(p2, "La realidad no está oculta, está delante de nuestros propios ojos. ¿Te suena la frase 'una mentira repetida mil veces se convierte en verdad'?. ¿Pueden personas concretas manipular a las masas?, ¿y si tus ideas no fueran tu propia opinión?", 70);
   await typeWriter(p3, "Yo no tengo tus respuestas, cada uno tiene que buscar las suyas. Solo el pensamiento crítico y entender la psicología humana nos hace libres.", 50);
-  await typeWriter(p4, "Pero eso es algo que los algoritmos de las redes intentan silenciar. El algoritmo quiere contenido vacío, dopamina inmediata generando adicción. Lo que enciende una chispa dentro de ti y te hace reflexionar... Queda shadowbaneado. Porque eso aleja a la gente de las redes sociales. Y en redes, los usuarios somos el producto.", 50);
-  await typeWriter(p5, "Esto lo sé bien porque he trabajado con ellas desde 2018. Entendiendo el marketing, la psicología y la tecnología que hay detrás. Un infiltrado que no pudieron detectar.", 50);
-  await typeWriter(p6, "Si estás leyendo esto significa que he pasado desapercibido (por ahora). He logrado que el algoritmo te ponga mi contenido delante (y tú has tenido la iniciativa de llegar hasta esta web). Pero para que eso haya pasado he tenido que jugar a su juego. Lo más relevante que te pueda contar jamás estará público en ninguna red social, el algoritmo no le daría visibilidad. La realidad oculta delante de tus ojos.", 50);
+  await typeWriter(p4, "Pero eso es algo que los algoritmos intentan silenciar. Las redes quieren contenido vacío, dopamina inmediata generando adicción. Lo que enciende una chispa dentro de ti y te hace reflexionar... Queda shadowbaneado.", 50);
+  await typeWriter(p5, "Esto lo sé bien porque he trabajado con ellas desde 2018. Conozco como la palma de mi mano el marketing, la psicología y la tecnología que hay detrás. Soy un infiltrado que no pudieron detectar.", 50);
+  await typeWriter(p6, "Si estás leyendo esto significa que he pasado desapercibido. Por ahora. He logrado que el algoritmo te ponga mi contenido delante (y tú has tenido la iniciativa de llegar hasta aquí). Pero para eso he tenido que jugar a su juego. Lo más relevante que te puedo contar jamás estará público en ninguna red social. El algoritmo no le daría visibilidad. La realidad oculta delante de tus ojos.", 50);
   await typeWriter(p7, "Darte mis verdaderos insights solo es posible si hablamos de tú a tú. Lo ideal sería un medio sin tecnología siquiera, enviarte una carta en papel: Tienes entre tus manos un sobre oscuro muy elegante con una barrabaja dorada en el centro. Al abrirlo lees de mi puño y letra lo que te quiero contar... Pero hacerlo así es inviable. Lo más parecido es poder enviarte un correo.", 70);
 
   await new Promise(resolve => setTimeout(resolve, 1000)); // Delay de 1s
