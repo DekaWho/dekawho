@@ -1126,7 +1126,7 @@ async function startTypewriter() {
   const p7 = document.querySelector(".p7");
   const p8 = document.querySelector(".p8");
 
-  await typeWriter(t1, "[classified]", 150);
+  await typeWriter(t1, "[no_publicar]", 150);
   await typeWriter(p1, "¿Alguna vez has escuchado a alguien y pensado '¿cómo puede creer eso?' Tú lo ves obvio, ¿quién le habrá comido la cabeza? Está claro que repite el discurso de otra persona. Algo que escuchó mil veces hasta que se lo creyó. Pobre.", 70);
   await typeWriter(p2, "¿Y si él pensaba lo mismo de ti? ¿Y si los dos tenéis razón? No en lo que pensáis. Sino en cómo llegasteis a pensarlo. 'Una mentira repetida mil veces se convierte en una gran verdad' ¿Te suena esa frase?", 60);
   await typeWriter(p3, "Igual la escuchas y piensas en dictadores. En discursos de los años 40 con banderas ondeando y multitudes gritando. Algo del pasado. Algo sobre otros países. Algo que ya no pasa. Pero ¿y si nunca dejó de pasar? ¿Y si solo cambió de forma? No hace falta un dictador gritando en una plaza. No hacen falta carteles y uniformes. Solo hace falta repetición. En películas, en periódicos, en telediarios, en discursos de políticos, en conversaciones cotidianas repitiendo como loros frases hechas...", 50);
