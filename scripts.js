@@ -83,7 +83,6 @@ async function startTypewriter() {
   const p5 = document.querySelector(".p5");
   const p6 = document.querySelector(".p6");
   const p7 = document.querySelector(".p7");
-  const p8 = document.querySelector(".p8");
   
   await typeWriter(t1, "[no_publicar]", 150);
   await typeWriter(p1, "¿Alguna vez has escuchado a alguien y pensado \"Menuda barbaridad acaba de soltar\"? Tú lo ves obvio, le han comido la cabeza. Repite el discurso de otra persona. Pobre...", 70);
@@ -104,5 +103,5 @@ async function startTypewriter() {
 }
 
 //el DOM ya está cargado cuando se ejecuta este script por el defer
-  startTypewriter();
+startTypewriter();
 
