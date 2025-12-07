@@ -83,15 +83,14 @@ async function startTypewriter() {
   const p5 = document.querySelector(".p5");
   const p6 = document.querySelector(".p6");
   const p7 = document.querySelector(".p7");
-  
-  await typeWriter(t1, "[no_publicar]", 150);
-  await typeWriter(p1, "¿Alguna vez has escuchado a alguien y pensado \"Menuda barbaridad acaba de soltar\"? Tú lo ves obvio, le han comido la cabeza. Repite el discurso de otra persona. Pobre...", 70);
-  await typeWriter(p2, "¿Y si él piensa lo mismo de ti? ¿Y si los dos tenéis razón? No en lo que pensáis, sino en cómo llegasteis a pensarlo. \"Una mentira repetida mil veces se convierte en verdad\", ¿te suena?", 60);
-  await typeWriter(p3, "No hablo de conspiraciones. No hay un grupo de señores gordos y forrados en una sala oscura decidiendo qué va a ser de tu vida. Es peor que eso.", 50);
-  await typeWriter(p4, "¿Crees que un título universitario te hace más válido?<br><br>¿Crees que está mal querer más de lo que tienes?<br><br>¿Crees que hipotecarte te da estabilidad?<br><br>¿Crees que ser funcionario es tener la vida resuelta?<br><br>¿Crees que todos los ricos son malas personas?<br><br>No juzgo tus respuestas, pregunto si alguna vez llegaste a esas conclusiones por tu propia cuenta.", 50);
-  await typeWriter(p5, "Imagina que plantas un roble en una maceta pequeña. El árbol crece pero las raíces no tienen donde ir, se enroscan sobre sí mismas y se asfixian. Podría medir 40 metros pero ahora es un bonsái.", 50);
-  await typeWriter(p6, "¿Cómo romper la maceta? Yo no tengo tus respuestas. Es más, no te creas nada de lo que digo (llega a tus propias conclusiones). Yo solo busco las mejores preguntas. Toda la vida, desde que fui un niño preguntón dando la turra. El problema hoy en día es que los algoritmos no buscan liberarte, buscan reducir tu maceta con dopamina rápida y scroll infinito. Por eso esto no encaja en ningún feed.", 50); 
-  await typeWriter(p7, "Compartir ideas con naturalidad solo es posible si hablamos de tú a tú. Lo ideal sería un medio sin tecnología siquiera, enviarte una carta en papel: Llega a tus manos un sobre oscuro (muy elegante) con una barrabaja dorada en el centro. Al abrirlo sacas un folio doblado. Lees de mi puño y letra lo que un día te escribí, sin más intermediarios que el papel. Pero hacerlo así es inviable, claro. Lo más parecido es poder enviarte un correo.", 70);
+
+  await typeWriter(t1, "[experimento_1498]", 120);
+  await typeWriter(p1, "Hay 5 monos encerrados en una jaula. Una escalera en el centro con unos plátanos arriba. En cuanto un mono intenta subir la escalera los investigadores lanzan un manguerazo de agua fría a todos los monos. Si otro mono lo intenta, lo mismo. Manguerazo para todos. Al poco ya ningún mono se acerca a la escalera.", 70);
+  await typeWriter(p2, "Ahora los investigadores sacan de la jaula a un mono, y meten a otro nuevo. El nuevo intenta subir la escalera pero el resto de monos lo frena a golpes. Ya no hace falta ni el agua. Cambian todos los monos de 1 en 1. Ya ninguno sufrió el manguerazo. Cuando entra otro nuevo le dan una paliza igualmente si se acerca a la escalera. \"Así es como lo hemos hecho siempre\".", 60);
+  await typeWriter(p3, "¿Y si nosotros somos los monos? No hablo de conspiraciones. No hay un grupo de señores gordos y forrados en una sala oscura decidiendo qué va a ser de tu vida. Pero puede ser peor que eso...", 50);
+  await typeWriter(p4, "¿Crees que un título universitario te hace más válido?<br><br>¿Crees que la estabilidad te da libertad?<br><br>¿Crees que está mal querer más de lo que tienes?<br><br>¿Crees que todos los ricos son malas personas?<br><br>No juzgo tus respuestas. Es más, no creas nada de lo que digo. Construye tus propias conclusiones.", 50);
+  await typeWriter(p6, "Yo solo busco las mejores preguntas. Toda la vida, desde que fui un niño preguntón dando la turra. El problema hoy en día es que la dopamina rápida y el scroll infinito son peor que un manguerazo de agua fría. Por eso esto no encaja en ningún feed.", 50); 
+  await typeWriter(p7, "Si quieres seguir tu propio camino aunque no sea lo que siempre se ha hecho: Rompo mitos en cada uno de mis emails. Los tienes gratis en tu bandeja de entrada.", 70);
 
 
   await new Promise(resolve => setTimeout(resolve, 1000)); // Delay de 1s
