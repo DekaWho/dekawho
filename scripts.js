@@ -86,11 +86,11 @@ async function startTypewriter() {
 
   await typeWriter(t1, "[experimento_1498]", 120);
   await typeWriter(p1, "Hay 5 monos encerrados en una jaula. Una escalera en el centro con unos plátanos arriba. En cuanto un mono intenta subir la escalera los investigadores lanzan un manguerazo de agua fría a todos los monos. Si otro mono lo intenta, lo mismo. Manguerazo para todos. Al poco ya ningún mono se acerca a la escalera.", 70);
-  await typeWriter(p2, "Ahora los investigadores sacan de la jaula a un mono, y meten a otro nuevo. El nuevo intenta subir la escalera pero el resto de monos lo frena a golpes. Ya no hace falta ni el agua. Cambian todos los monos de 1 en 1. Ya ninguno sufrió el manguerazo. Cuando entra otro nuevo le dan una paliza igualmente si se acerca a la escalera. \"Así es como lo hemos hecho siempre\".", 60);
+  await typeWriter(p2, "Ahora los investigadores sacan de la jaula a un mono, y meten a otro nuevo. El nuevo intenta subir la escalera pero el resto de monos lo frena a golpes. Ya no hace falta ni el agua fría. Siguen cambiando todos los monos de uno en uno. Ahora ninguno ha sufrido el manguerazo, pero cuando entra otro nuevo le dan una paliza si se acerca a la escalera. Así es como siempre lo han hecho.", 60);
   await typeWriter(p3, "¿Y si nosotros somos los monos? No hablo de conspiraciones. No hay un grupo de señores gordos y forrados en una sala oscura decidiendo qué va a ser de tu vida. Pero puede ser peor que eso...", 50);
   await typeWriter(p4, "¿Crees que un título universitario te hace más válido?<br><br>¿Crees que la estabilidad te da libertad?<br><br>¿Crees que está mal querer más de lo que tienes?<br><br>¿Crees que todos los ricos son malas personas?<br><br>No juzgo tus respuestas. Es más, no creas nada de lo que digo. Construye tus propias conclusiones.", 50);
   await typeWriter(p6, "Yo solo busco las mejores preguntas. Toda la vida, desde que fui un niño preguntón dando la turra. El problema hoy en día es que la dopamina rápida y el scroll infinito son peor que un manguerazo de agua fría. Por eso esto no encaja en ningún feed.", 50); 
-  await typeWriter(p7, "Si prefieres preguntas incómodas a respuestas fáciles, este es tu sitio. Mis vídeos en redes agrietan el muro pero mis emails lo derriban. Gratis en tu bandeja de entrada.", 70);
+  await typeWriter(p7, "Si prefieres preguntas incómodas a respuestas fáciles, este es tu sitio. Gratis, en la intimidad de tu bandeja de entrada.", 70);
 
 
   await new Promise(resolve => setTimeout(resolve, 1000)); // Delay de 1s
