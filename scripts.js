@@ -96,7 +96,7 @@ async function startTypewriter() {
 
 
   const hasTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
-  const continueText = hasTouch ? "Toca la pantalla para verlo" : "Pulsa cualquier tecla para verlo"; //frases sin punto para que se quede el cursor esperando
+  const continueText = hasTouch ? "Toca la pantalla para verlo" : "Pulsa cualquier tecla para verlo"; //frases sin punto para el cursor
 
   await typeWriter(p7, `La mayoría no llega hasta aquí. Tú sí, aunque te falta el último paso. ${continueText}`, 70);
 
@@ -113,9 +113,9 @@ async function startTypewriter() {
   p7.querySelector('.cursor')?.remove(); //sin esto se quedan dos cursores en pantalla
   p7.innerHTML += ".";
 
-  await typeWriter(p8, ". . . . . . . . ", 290);
+  await typeWriter(p8, ". . . . . . . . ", 240);
   p8.querySelector('.cursor')?.remove();
-  p9.innerHTML = "Esto sigue gratis en la intimidad de tu bandeja de entrada. Sin que un algoritmo decida por ti";
+  p9.innerHTML = "Los emails prohibidos por el algoritmo. Gratis, en la intimidad de tu bandeja de entrada";
   p9.appendChild(cursor);
 
   document.getElementById("form").style.display = "block";
