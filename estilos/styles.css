@@ -49,8 +49,8 @@ s{
 }
 
 ::selection{
-  background-color: var(--amarillo);
-  color: var(--gris);
+  background-color: var(--negro);
+  color: var(--negro);
 }
 
 .emoji{
